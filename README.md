@@ -17,7 +17,6 @@ pnpm run dev
 Открой http://localhost:5173
 
 Структура:
-
-src/utils/api.js — мок-API c задержками.
-src/main.jsx — маршрутизация и страницы.
-public/*.umd.js — UMD-бандлы React/Router (локально).
+* src/utils/api.js — мок-API c задержками.
+* src/main.jsx — маршрутизация и страницы.
+* public/*.umd.js — UMD-бандлы React/Router (локально).
