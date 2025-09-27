@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Router</title>
+  </head>
+  <body>
+  <div id="root"></div>
+  <script src="/react.umd.js"></script>
+  <script src="/react-dom.umd.js"></script>
+  <script src="/history.umd.js"></script>
+  <script src="/react-router.umd.js"></script>
+  <script src="/react-router-dom.umd.js"></script>
+  <script>
+    window.HistoryLibrary = window.HistoryLibrary || window.HistoryLibrary; // уже задан
+    window.ReactRouter = window.ReactRouter || window.ReactRouter;
+    window.RRD = window.ReactRouterDOM;
+    console.log('globals:', !!window.React, !!window.ReactDOM, !!window.HistoryLibrary, !!window.ReactRouter, !!window.RRD);
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
